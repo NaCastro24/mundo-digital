@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mundo Digital</title>
+  <style>
+    :root {
+      --azul-marino: #001f3f;
+      --azul: #0074D9;
+      --morado: #6f42c1;
+      --celeste-marino: #00bcd4;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--azul-marino);
+      color: white;
+    }
+
+    header {
+      background-image: url('file-HVAhDvtcGwaLr7HmdYxGPk');
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      padding: 100px 20px;
+      color: white;
+      animation: fadeIn 2s ease-in-out;
+      box-shadow: 0 0 20px var(--celeste-marino);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    nav {
+      background: linear-gradient(90deg, var(--azul), var(--morado));
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 0 10px var(--celeste-marino);
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--celeste-marino);
+    }
+
+    section {
+      padding: 50px 20px;
+    }
+
+    .servicio {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      margin-bottom: 30px;
+      border-left: 5px solid var(--celeste-marino);
+      border-radius: 10px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .servicio:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 20px var(--azul);
+    }
+
+    .servicio h3 {
+      margin-bottom: 15px;
+      font-size: 1.8em;
+      color: var(--celeste-marino);
+      border-bottom: 2px solid var(--celeste-marino);
+      padding-bottom: 5px;
+    }
+
+    .servicio p {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+
+    .servicio img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+
+    form {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px var(--morado);
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    button {
+      background-color: var(--azul);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: var(--celeste-marino);
+    }
+
+    footer {
+      background-color: var(--morado);
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header id="imagenes de fondo" style="background-image: url('imagenes/Fondo.png');">
+    <img src="imagenes/LOGO.png" alt="Logo Mundo Digital" style="width: 250px;" />
+    <h1>Bienvenidos a Mundo Digital</h1>
+    <p>Impulsando tu presencia en el mundo tecnológico</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#informacion">Información</a>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contactanos">Contacto</a>
+  </nav>
+
+  <section id="inicio">
+    <header>
+      <h2>Inicio</h2>
+      <img src="imagenes/Bot.6.png" alt="fondo" style="width: 1000px;">
+      <p>En Mundo Digital conectamos innovación, creatividad y tecnología para transformar ideas en soluciones digitales de alto impacto.</p>
+      <p>Somos una plataforma integral especializada en Marketing Digital, Diseño Gráfico, Informática y Programación, comprometidos con el desarrollo de estrategias inteligentes que potencian marcas y negocios en el entorno digital.</p>
+      <p>Nuestro objetivo es brindar un servicio profesional, personalizado y con visión a futuro, combinando herramientas modernas con un diseño atractivo, funcional y adaptado a las necesidades del mercado actual.</p>
+      <p>Descubrí cómo podemos ayudarte a llevar tu presencia digital al siguiente nivel.</p>
+    </header>
+  </section>
+
+  <section id="informacion">
+    <header>
+      <h2>Información</h2>
+      <img src="imagenes/Bot.3.png" alt="fondo" style="width: 1000px;">
+      <p>Con más de 5 años de experiencia en el sector, Mundo Digital nace como una iniciativa profesional orientada a brindar soluciones digitales completas y de alta calidad en las áreas de Marketing Digital, Diseño Gráfico, Informática y Programación.</p>
+      <p>A lo largo de estos años, hemos trabajado con emprendedores, pymes y empresas, desarrollando estrategias personalizadas y proyectos innovadores que fortalecen su presencia online, optimizan procesos tecnológicos y potencian la comunicación visual.</p>
+      <p>Nuestra experiencia nos permite abordar cada proyecto con una visión integral, combinando creatividad, tecnología y eficiencia para garantizar resultados medibles y sostenibles en el tiempo.</p>
+      <p>En Mundo Digital apostamos al crecimiento constante, a la atención personalizada y al compromiso con la excelencia, brindando soluciones adaptadas a los desafíos del mundo actual.</p>
+    </header>
+  </section>
+
+  <section id="sobre-mi">
+    <header>
+      <h2>Sobre mí</h2>
+      <img src="imagenes/Bot.2.png" alt="fondo" style="width: 1000px;">
+      <p>Mi nombre es Nahuel Nicolas Castro y soy el fundador de Mundo Digital, un espacio creado con la misión de ofrecer soluciones tecnológicas modernas, creativas y funcionales a quienes buscan destacarse en el entorno digital.</p>
+      <p>Cuento con formación y experiencia en áreas clave como el Marketing Digital, el Diseño Gráfico, la Informática y la Programación, lo que me permite abordar cada proyecto con una visión integral y estratégica. Mi enfoque se basa en la innovación constante, la atención personalizada y el compromiso con la calidad en cada entrega.</p>
+      <p>A través de Mundo Digital, ayudo a empresas, emprendedores y profesionales a construir su presencia online, optimizar su rendimiento digital y alcanzar sus objetivos con herramientas efectivas y diseño de alto impacto.</p>
+      <p>Estoy convencido de que el futuro es digital, y mi propósito es acompañarte en ese camino con profesionalismo, creatividad y tecnología.</p>
+    </header>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+
+    <div class="servicio">
+      <h3>Marketing Digital</h3>
+      <p>En Mundo Digital:</p>
+      <p>Desarrollamos estrategias de Marketing Digital pensadas para posicionar marcas, aumentar su visibilidad online y generar resultados concretos.</p>
+      <p>Nos especializamos en crear campañas creativas, orientadas a objetivos y adaptadas a las tendencias del mercado digital actual.</p>
+      <p>Ofrecemos soluciones integrales que incluyen gestión de redes sociales, publicidad digital (Google Ads y Meta Ads), email marketing, posicionamiento SEO, creación de contenido y análisis de métricas.</p>
+      <p>Cada acción está diseñada para conectar a tu marca con su audiencia ideal, mejorar la interacción y potenciar las conversiones.</p>
+      <p>Con más de 5 años de experiencia, trabajamos con una visión estratégica que combina innovación, análisis y creatividad.</p>
+      <p>En Mundo Digital entendemos que el éxito en línea no es cuestión de suerte, sino de planificación, conocimiento y ejecución efectiva.</p>
+      <header><img src="imagenes/MARKETING Dg.png" alt="Marketing Digital" style="width: 500px;"></header>
+    </div>
+
+    <div class="servicio">
+      <h3>Diseñador Gráfico</h3>
+      <p>En Mundo Digital:</p>
+      <p>El Diseño Gráfico es más que estética: es comunicación visual estratégica.</p>
+      <p>Creamos piezas gráficas impactantes, funcionales y alineadas con la identidad de cada marca, con el objetivo de transmitir mensajes claros y fortalecer su presencia en el mercado.</p>
+      <p>Nos especializamos en el diseño de logotipos, identidad visual, flyers, banners, piezas publicitarias para redes sociales, presentaciones corporativas y más.</p>
+      <p>Cada proyecto es abordado con creatividad, atención al detalle y coherencia visual, garantizando un diseño profesional adaptado a múltiples plataformas y públicos.</p>
+      <p>Con más de 5 años de experiencia en el rubro, combinamos técnicas modernas, herramientas profesionales y una visión integral del diseño, logrando resultados que no solo se ven bien, sino que comunican de forma efectiva.</p>
+      <p>En Mundo Digital, transformamos ideas en imágenes que marcan la diferencia.</p>
+      <header><img src="imagenes/DISEÑADOR G.png" alt="Diseño Gráfico" style="width: 500px;"></header>
+    </div>
+
+    <div class="servicio">
+      <h3>Informática</h3>
+      <p>En Mundo Digital:</p>
+      <p>Brindamos soluciones informáticas eficientes, seguras y adaptadas a las necesidades de cada cliente.</p>
+      <p>Nuestro objetivo es garantizar el correcto funcionamiento de los sistemas y equipos tecnológicos, asegurando un entorno digital estable y productivo.</p>
+      <p>Contamos con más de 5 años de experiencia ofreciendo servicios técnicos especializados como:</p>
+      <p>Mantenimiento y Reparación de PC, formateo e instalación de sistemas operativos, optimización de rendimiento, eliminación de virus, instalación de software, respaldo de información y soporte remoto o presencial.</p>
+      <p>Trabajamos con responsabilidad, rapidez y atención personalizada, utilizando herramientas actualizadas y buenas prácticas del sector.</p>
+      <p>Ya sea para usuarios particulares, emprendedores o empresas, brindamos asistencia informática profesional que resuelve problemas y previene futuros inconvenientes.</p>
+      <p>En Mundo Digital, tu tecnología funciona cuando más la necesitás.</p>
+      <header><img src="imagenes/INFORMATICA.png" alt="Informática" style="width: 500px;"></header>
+    </div>
+
+    <div class="servicio">
+      <h3>Programación</h3>
+      <p>En Mundo Digital:</p>
+      <p>Desarrollamos soluciones de programación a medida orientadas a optimizar procesos, mejorar la funcionalidad digital y potenciar el crecimiento tecnológico de empresas y emprendedores.</p>
+      <p>Con más de 5 años de experiencia en el desarrollo de aplicaciones, sitios web y sistemas personalizados, trabajamos con lenguajes y tecnologías actuales como HTML, CSS, JavaScript, PHP, Python y bases de datos.</p>
+      <p>Nuestro enfoque combina diseño funcional, eficiencia en el código y adaptabilidad para distintos entornos y dispositivos.</p>
+      <p>Creamos desde páginas web dinámicas hasta sistemas de gestión, integraciones, automatizaciones y herramientas específicas para cada necesidad.</p>
+      <p>Cada proyecto se construye con una visión escalable, segura y de alto rendimiento.</p>
+      <p>En Mundo Digital, la programación no solo es técnica: es una herramienta poderosa para transformar ideas en soluciones digitales concretas.</p>
+      <header><img src="imagenes/PROGRAMACION.png" alt="Programación" style="width: 500px;"></header>
+    </div>
+
+  </section>
+
+  <section id="contactanos">
+    <h2>Contactanos</h2>
+    <form action="mailto:nc8154975@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="nombre" placeholder="Nombre" required>
+      <input type="email" name="email" placeholder="Correo electrónico" required>
+      <input type="text" name="asunto" placeholder="Asunto" required>
+      <textarea name="mensaje" placeholder="Escribe tu mensaje aquí" rows="5" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p><strong>Nombre:</strong> Nahuel Castro</p>
+    <p><strong>Dirección:</strong> Calle Pasaje el Sol 198, Ciudad Salta - Argentina</p>
+    <p><strong>Email:</strong> nc8154975@gmail.com</p>
+    <p><strong>Teléfono:</strong> +54 3873-438180</p>
+  </footer>
+</body>
+</html>
